@@ -1,8 +1,6 @@
 # -*- coding:utf-8 -*-
 import requests
 import json
-import time
-import random
 from MongoDB.MongoDB import mongo
 
 #下载第一页数据
