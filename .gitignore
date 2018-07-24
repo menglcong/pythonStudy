@@ -3,6 +3,7 @@
 *.log
 test*
 .git/
+*.pyc
 *.iml
 venv
 # JAVA
