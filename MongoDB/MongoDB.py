@@ -24,22 +24,14 @@ class mongo:
         self.table_cliet.insert_many(data)
 
     #更新
-    def update(self):
-        self.table_cliet.update_many()
+    def update(self, *args):
+        self.table_cliet.update_many(*args)
 
     #删除
     def delete(self, *args):
         self.table_cliet.delete_many(*args)
 
-
     #删除集合
     def drop(self):
         self.table_cliet.drop()
 
-if __name__ == "__main__":
-    test = mongo()
-    test.connect("mongodb://localhost:27017/","car","tianjin")
-    myquery = { "city_name": "tianjin" }
-    data = test.find(myquery)
-    for x in data:
-        print(x)
