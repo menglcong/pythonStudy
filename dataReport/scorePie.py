@@ -23,4 +23,4 @@ pie.add("邪不压正猫眼评分", attr, v1, center=[50, 50],
         radius=[30, 75], rosetype='area',
         is_legend_show=False, is_label_show=True)
 
-pie.render()
+pie.render(path='pie.html')
