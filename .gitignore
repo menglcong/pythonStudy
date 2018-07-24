@@ -1,7 +1,8 @@
 .DS_Store
 .idea
 *.log
-.git
+test*
+.git/
 *.iml
 venv
 # JAVA
